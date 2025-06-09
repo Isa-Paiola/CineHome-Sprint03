@@ -3,7 +3,9 @@
 
 **CineHome** é uma aplicação web para locação de filmes, séries, novelas e desenhos. O sistema foi desenvolvido por alunos do Curso Técnico em Desenvolvimento de Sistemas do SENAI, com foco em proporcionar uma experiência personalizada de entretenimento digital sem a necessidade de assinatura mensal.
 
-## 📌 Sobre o Projeto
+---
+
+## 🧭 Visão Geral
 
 Inspirado em plataformas como Netflix e Prime Video, o CineHome oferece:
 - Navegação por catálogo interativo
@@ -14,72 +16,72 @@ Inspirado em plataformas como Netflix e Prime Video, o CineHome oferece:
 
 > O sistema é uma solução escalável e moderna, com backend em PHP, frontend responsivo e armazenamento em arquivos JSON.
 
+---
+
+## 🚀 SPRINT 1 - Planejamento e Prototipação
+
+### 📌 Objetivos:
+- Definição dos requisitos funcionais e não funcionais
+- Estudo de mercado e justificativa do projeto
+- Criação do protótipo de alta fidelidade no Figma
+- Organização inicial com cronograma e Kanban (Trello)
+
+### 📎 Entregas:
+- Protótipo navegável da plataforma (Login, Cadastro, Catálogo)
+- Levantamento técnico (documentação ABNT)
+- Estrutura inicial do projeto
+
+---
+
+## 🔧 SPRINT 2 - Desenvolvimento Frontend e Regras de Negócio
+
+### 📌 Objetivos:
+- Implementação da interface web com HTML, CSS, Bootstrap e JS
+- Desenvolvimento da lógica de locação e autenticação
+- Integração com arquivos JSON (usuários e itens)
+- Validação de campos, autenticação por perfil e cálculo de preços
+
+### ⚙️ Funcionalidades Desenvolvidas:
+#### Usuário:
+- Login e cadastro com validação
+- Acesso ao catálogo com filtro por tipo
+- Locação e visualização de mídia
+- Cálculo de valor de aluguel
+
+#### Administrador:
+- Login com acesso restrito
+- Adição, edição e remoção de itens do catálogo
+
+---
+
+## 🧩 SPRINT 3 - Backend, Integração e Finalização
+
+### 📌 Objetivos:
+- Conclusão da lógica de negócio com POO (PHP)
+- Implementação do controle de sessão e autenticação segura
+- Finalização da interface administrativa e pública
+- Preparação da apresentação (Canva) e entrega do relatório técnico
+
+### ✅ Funcionalidades Completas:
+- Painel completo para admins com gerenciamento de mídia
+- Sessões e permissões por perfil (admin/usuário)
+- Upload e exibição de imagens
+- Cálculo de previsão de aluguel com base em dias
+- Interface responsiva com navegação fluida
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **PHP (com POO e Namespaces)**
 - **HTML5 / CSS3 / Bootstrap**
 - **JavaScript**
-- **JSON** (para persistência de dados)
-- **Figma** (para prototipação)
-- **Kanban (Trello)** e **Scrum** (metodologia ágil)
+- **JSON**
+- **Figma** (protótipo)
+- **Trello** (Kanban)
+- **Scrum** (metodologia ágil)
 
-## ⚙️ Funcionalidades
-
-### Usuário comum:
-- Login e cadastro
-- Explorar e alugar mídias
-- Visualizar catálogo com filtros
-- Ver histórico de locações
-- Calcular valor de aluguel
-
-### Administrador:
-- Acesso restrito com login
-- Cadastrar, editar, deletar e alugar/devolver mídias
-- Gerenciar catálogo de filmes, séries, novelas e desenhos
-
-## 📁 Estrutura de Pastas
-
-```
-├── config/               # Arquivo de configuração
-├── data/                 # JSONs de usuários e itens
-├── img/uploads/          # Imagens das mídias
-├── models/               # Classes de domínio (Filme, Serie, etc.)
-├── public/               # Arquivos públicos como login.php e cadastro.php
-├── services/             # Lógica de negócio (Auth, Locadora)
-├── views/                # Templates e layout
-└── index.php             # Arquivo principal
-```
-
-## 🚀 Como Executar o Projeto
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SeuUsuario/CineHome.git
-   ```
-
-2. Coloque os arquivos em um servidor local (como o [XAMPP](https://www.apachefriends.org/) ou [Laragon](https://laragon.org/)).
-
-3. Inicie o Apache e acesse no navegador:
-   ```
-   http://localhost/CineHome/public/login.php
-   ```
-
-4. Use os usuários padrão (armazenados em `usuarios.json`):
-   - Admin: `admin` / `admin123`
-   - Usuário: `usuario` / `user123`
-
-## 🔐 Segurança
-
-- Senhas criptografadas (usando `password_hash`)
-- Autenticação baseada em sessão
-- Validações de entrada e controle de acesso por perfil
-
-## 📅 Metodologia
-
-Projeto desenvolvido em três Sprints:
-1. Planejamento e protótipo (Figma)
-2. Frontend e lógica de aluguel
-3. Backend completo e integração
+---
 
 ## 👥 Equipe
 
@@ -89,6 +91,8 @@ Projeto desenvolvido em três Sprints:
 - Maria Eduarda dos Santos Rosa  
 - Pedro Henrique da Silva Rodrigues  
 - Yasmin Lopes Borba  
+
+---
 
 ## 📄 Licença
 
